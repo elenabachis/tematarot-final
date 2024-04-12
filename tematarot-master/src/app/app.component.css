@@ -1,0 +1,157 @@
+.body {
+    background-image: url("https://wallpapers.com/images/featured/witchy-aesthetic-27unxjlcrc77um2v.jpg");
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  #website-title {
+    color: yellow; /* Change the color to your desired color */
+}
+
+.toolbar {
+  background-color: #e7d619;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin-right: auto; 
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.spacer {
+  flex: 1; /* This will push the menu items to the right */
+}
+
+
+
+.body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.centered-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  margin: 0 10px;
+}
+
+
+/* Apply background image to the body */
+body {
+  background-image: url("https://wallpapers.com/images/featured/witchy-aesthetic-27unxjlcrc77um2v.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+/* Ensure HTML and body take up the full height of the viewport */
+html, body {
+  height: 100%;
+}
+
+/* Add other styling for the content as needed */
+.body {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.toolbar {
+  background-color: #e7d619;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.shuffle-button {
+  background-color: rgba(255, 255, 0, 0.728);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shuffle-button:hover {
+  background-color: #0056b3;
+}
+
+
+.body {
+  background-image: url("https://wallpapers.com/images/featured/witchy-aesthetic-27unxjlcrc77um2v.jpg");
+  background-size: 150%; /* Increase the size of the background image */
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px;
+  min-height: 1000px; /* Ensure body covers the entire viewport height */
+}
+
+

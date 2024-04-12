@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tarotapp-da0c8": {
+      "hosting": {
+        "tematarot": [
+          "tarotapp-da0c8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tarotapp-da0c8"
+  }
+}

@@ -1,0 +1,22 @@
+<div class="body">
+  <div class="centered-text">
+    <h1 id="website-title">Welcome to Tarot Reading</h1>
+    <div class="toolbar">
+      <div class="spacer"></div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Authentication</a>
+        <a href="#">History</a>
+      </div>
+      <div class="spacer"></div>
+    </div>
+
+    <div class="cards-container">
+      <div class="card" *ngFor="let card of displayedCards">
+        <app-card-tarot [card]="card"></app-card-tarot>
+      </div>
+    </div>
+
+    <button class="shuffle-button" (click)="shuffleDeck()">Shuffle deck</button>
+  </div>
+</div>
